@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasoI</title>
+     <link rel="stylesheet" href="Estilos.css">
+     <script src="Desarrollo.js"></script>
+</head>
+<body>
+    
+
+<div class=" formulario1">
+    <div class="form">
+        <form id="forms">
+            <div >
+            <label  for="nombre">Nombre del estudiante</label><br>
+            <input class="nombre" type="text" id="nombre" name="nombre"><br>
+            </div>
+            <label for="Apellido">Apellido del estudiante</label><br>
+            <input type="text" id="Apellidos" name="Apellidos"><br> 
+            <label for="number">Nota</label><br>
+            <input type="number" id="Nota" name="Nota" min="0" max="100" />
+    <br>
+
+   <button type="submit" class="mostrar" onclick="obtenerDatos(); return false;">Mostrar Datos</button>
+
+            <h2>Datos de los estudiantes</h2>
+
+<table class="TablaResultados.">
+
+  <tr>
+    <th>Nombre Del Estudiante</th>
+   
+    <th>Apellidos Del Estudiante</th>
+   
+    <th>Nota Del Estudiante</th>
+    
+  </tr>
+  <tr>
+    <td>Maria </td>
+    <td>Mora Perez</td>
+    <td>90</td>
+  </tr>
+   <tr>
+    <td>Pedro </td>
+    <td>Sibaja Lopez</td>
+    <td>60</td>
+  </tr>
+   <tr>
+    <td>Marco </td>
+    <td>Rojas Castro</td>
+    <td>78</td>
+  </tr>
+    <tr>
+    <td>
+        <div class="dato">Nombre : <span id="nombreMostrar"></span></div><br>
+
+    </td>
+    <td>
+         <div class="dato">Apellido : <span id="ApellidoMostrar"></span></div><br>
+    </td>
+    <td>
+         <div class="dato">Nota : <span id="NotaMostrar"></span></div><br>
+    </td>
+  </tr>
+
+</table>
+</form>
+
+</body>
+</html>
+
