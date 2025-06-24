@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasoI</title>
+     <link rel="stylesheet" href="Estilos.css">
+     <script src="Desarrollo.js"></script>
+</head>
+<body>
+    
+<h1>Catalogo de Servicios Estudiantiles</h1>
+
+
+
+<div class="menu">
+    
+  
+        <a href="index.html">Inicio</a>
+        <a href="Contacto.html">Contacto</a>
+        <a href="Servicios.html">Servicios</a>
+        <a href="registro.php">Registro</a>
+      
+      
+</div>
+    <br><br>
+
+<div class=" formulario1">
+    <div class="form">
+        <form id="forms">
+            <div >
+            <label  for="nombre">Nombre Completo</label><br>
+            <input class="nombre" type="text" id="nombre" name="nombre"><br>
+            </div>
+            <label for="Apellido">Servicio Ofrecido</label><br>
+            <input type="text" id="Apellidos" name="Apellidos"><br> 
+            <label for="number">Precio en Colones</label><br>
+            <input type="number" id="Nota" name="Nota" min="0" max="100" />
+    <br>
+
+   <button type="submit" class="mostrar" onclick="obtenerDatos(); return false;">Mostrar Datos</button>
+
+            <h2>Datos de los estudiantes</h2>
+
+<table class="TablaResultados.">
+
+  <tr>
+    <th>Nombre Completo </th>
+   
+    <th>Servicio Ofrecido</th>
+   
+    <th>Precio en Colones</th>
+    
+  </tr>
+  <tr>
+    <td>Sebastian Vasquez Villaplana </td>
+    <td>Desarrollo Fullstack</td>
+    <td id="notaDelEstudiante1">12000</td>
+  </tr>
+   <tr>
+    <td>Ariel Vasquez Villaplana </td>
+    <td>Consultor de IT</td>
+    <td id="notaDelEstudiante2" >6000</td>
+  </tr>
+   <tr>
+    <td>Valeria Vasquez Villaplana </td>
+    <td> Analista de datos</td>
+    <td id="notaDelEstudiante3">4500</td>
+  </tr>
+    <tr>
+    <td>
+        <div class="dato"> <span id="nombreMostrar"></span></div><br>
+
+    </td>
+    <td>
+         <div class="dato"> <span id="ApellidoMostrar"></span></div><br>
+    </td>
+    <td>
+         <div class="dato"> <span id="NotaMostrar"></span></div><br>
+    </td>
+  </tr>
+
+</table>
+</form>
+
+
+
+<h4>Resultados</h4>
+ <button type="submit" class="mostrar" onclick="CalcularDatos(); return false;">Obtener Resultados</button>
+<div class="dato">precio mayor: <span id="NotaMayor"></span></div>
+<div class="dato">precio menor: <span id="NotaMenor"></span></div>
+<div class="dato">Promedio de precios: <span id="Promedio"></span></div>
+
+
+</body>
+</html>
+

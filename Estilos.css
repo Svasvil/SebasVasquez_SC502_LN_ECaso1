@@ -1,0 +1,197 @@
+
+h1 {
+    text-align: center;
+    color: #1a237e;
+    margin-top: 40px;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+    padding: 20px 0;
+    background: #e3eafc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(26,35,126,0.06);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 10px 18px;
+    border-radius: 4px;
+  
+}
+
+.menu a:hover {
+    background: #1a73e8;
+    color: #fff;
+}
+
+.nota-verde {
+    color: green;
+
+}
+
+.nota-roja {
+    color: red;
+
+}
+
+
+
+.formulario1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form {
+    background: #fff;
+    padding: 24px 32px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(26,35,126,0.08);
+    min-width: 340px;
+}
+
+.form label {
+    font-weight: 500;
+    color: #1a237e;
+}
+
+.form input[type="text"],
+.form input[type="number"] {
+    width: 95%;
+    padding: 8px;
+    margin: 6px 0 14px 0;
+    border: 1px solid #b0bec5;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f4f8fb;
+}
+
+.mostrar {
+    background: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  
+}
+
+.TablaResultados {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto 20px auto;
+    border-collapse: collapse;
+  
+}
+
+.TablaResultados th,
+.TablaResultados td {
+    border: 1px solid #cfd8dc;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+
+.dato {
+    font-size: 1.1em;
+  
+   
+    border-radius: 6px;
+    padding: 8px 14px;
+    margin: 4px 0;
+    display: inline-block;
+    min-width: 120px;
+    text-align: center;
+  
+}
+
+#registroForm {
+    background: #fff;
+    padding: 28px 36px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(26,35,126,0.08);
+    max-width: 400px;
+    margin: 30px auto 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#registroForm label {
+    font-weight: 500;
+    color: #1a237e;
+    margin-bottom: 4px;
+}
+
+#registroForm input[type="text"],
+#registroForm input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #b0bec5;
+    border-radius: 4px;
+    font-size: 1em;
+    background: #f4f8fb;
+}
+
+.msj {
+    text-align: center;
+    font-size: 1.1em;
+    color: #388e3c;
+    margin-top: 10px;
+    min-height: 24px;
+}
+ 
+.titulos{
+    text-align: center;
+    font-size: 2em;
+    color: #1a237e;
+    margin-top: 10px;
+    min-height: 24px;
+
+}
+
+.info {
+    background: #fff;
+    border-radius: 10px;
+    
+    max-width: 500px;
+    margin: 30px auto 20px auto;
+    padding: 24px 32px;
+    text-align: center;
+}
+
+.info h1 {
+    color: #1a237e;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info  p {
+    color: #333;
+    margin: 8px 0;
+    font-size: 1.1em;
+}
+
+.mensaje{
+   background: #1a73e8;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.1em;
+}
